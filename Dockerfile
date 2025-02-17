@@ -5,4 +5,4 @@ WORKDIR /app
 # COPY package*.json ./
 # RUN npm install
 COPY . .
-CMD ["./bin/docker-run"]
+CMD ["./bin/docker-run.sh"]
